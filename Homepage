@@ -23,7 +23,6 @@
   <li><a href="about.asp">About</a></li>
 </ul>
 <section>
-<section-text>
 
 <h1>London</h1>
 <p>
@@ -136,7 +135,6 @@ Standing on the River Thames, London has been a major settlement for two millenn
 its history going back to its founding by the Romans, who named it Londinium.
 </p>
 
-</section-text>
 </section>
 
 <footer>
@@ -144,3 +142,4 @@ Copyright © W3Schools.com
 </footer>
 
 </body>
+
