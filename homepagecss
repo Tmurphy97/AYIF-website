@@ -1,0 +1,264 @@
+<style>
+
+body {		/*main background */	
+	background-color:#fff; 
+}
+
+header {		/* Header- pink area at the top of the page */
+    background-color: #FC01FC;
+	height:100px;
+	
+}
+
+ul {			/* Navigation bar */
+	
+    list-style-type: none;
+	margin:0;
+	padding:0;
+	width:100%;
+    overflow: hidden;
+    background-color: #262626;
+	text-align:center;
+}
+
+li {			/* Positioning of the links in the navigation bar */
+    float: left;
+	width:20%;
+}
+
+li a {			/* links, words on the links, timing for the transition of the color change for the links */
+    display: block;
+    color: #f5f5f5;
+    text-align: center;
+    padding-top: 14px;
+	padding-bottom:14px;
+    text-decoration: none;
+	font-family:tahoma;
+	font-weight: bold;
+	border-right:1px solid #111;
+	border-bottom: 3px solid transparent;
+
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+	
+}
+
+li a:hover {		/* what happens when the links are hovered over- background color change, border appears at the bottom of the link */
+    background-color: #111;
+	color:#fff;
+	border-right:1px solid #111;
+	border-bottom: 3px solid #FC01FC;
+}
+
+section {		/* Main section where the content of the page is */
+	margin-left:15%;
+	margin-right:15%;
+	width:70%;
+	height:1000px;
+	border:10px;
+	border-left: 6px double #e6e6e6;
+	border-right: 6px double #e6e6e6;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:20px;
+	background-color:#fff;
+	font-family:tahoma;
+}
+
+sidebar{
+	float:left;
+	width:30%;
+	padding:10px;
+	border-right: 1px solid #e6e6e6;
+}
+
+maincontent{
+	float:none;
+	width:70%;
+	padding:10px;
+	border-left: 1px solid #e6e6e6;
+}
+
+backgroundimage{		/* Flower image */
+	left:0px;
+	bottom:-45px;
+	position:fixed;
+	z-index:-99;
+}
+
+/* Search bar code */
+
+
+	#tfnewsearch{
+		float:right;
+		padding:0px;
+		padding-top:40px;
+		padding-right:20px;
+	}
+	
+	.tftextinput{
+		width:125px;
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #cb01cb; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #cb01cb; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#FC01FC), to(#cb01cb));
+		background: -moz-linear-gradient(top,  #FC01FC,  #cb01cb);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+		
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #FC01FC;
+		background: -webkit-gradient(linear, left top, left bottom, from(#fe80fe), to(#FC01FC));
+		background: -moz-linear-gradient(top,  #fe80fe,  #FC01FC);
+		
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	
+/* End search bar code */
+
+footer {		/* Bottom of the page */
+	width:100%;
+	height:450px;
+	bottom:0px;
+	border-top: 6px double #e6e6e6;
+	background-color:white;
+}
+
+columnone{
+	float:left;
+	width:25%;
+	height:100%;
+	padding-top:10px;
+	padding-bottom:20px;
+	background:white;
+	border-right: 1px solid #e6e6e6;
+	border-bottom: 2px solid #e6e6e6;
+}
+
+columnone p{
+	text-align: center;
+	margin:auto;
+	font-family:tahoma;
+	padding-bottom:5px;
+}
+columnone a{
+	color:#FC01FC;
+	font-family:tahoma;
+}
+
+columnone h2{
+	text-align:center;
+	font-family:tahoma;
+}
+
+columnone table{
+	margin:auto;
+	font-family:tahoma;
+}
+
+columnone td {
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+}
+
+columntwo{
+	float:left;
+	width:25%;
+	height:100%;
+	padding-top:10px;
+	padding-bottom:20px;
+	font-family:tahoma;
+	border-right: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 2px solid #e6e6e6;
+}
+columntwo h2{
+	text-align:center;
+	font-family:tahoma;
+}
+
+columntwo p{
+	text-align:center;
+}
+
+columnthree{
+	float:left;
+	width:25%;
+	height:100%;
+	padding-top:10px;
+	padding-bottom:20px;
+	font-family:tahoma;
+	border-right: 2px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 2px solid #e6e6e6;
+}
+columnthree h2{
+	text-align:center;
+	font-family:tahoma;
+}
+
+columnthree p{
+	text-align:center;
+}
+
+columnfour{
+	float:none;
+	width:25%;
+	padding-top:30px;
+	font-family:tahoma;
+	text-align:center;
+}
+
+columnfour a{
+	text-align:center;
+	text-decoration:underline;
+	color:#FC01FC;
+	
+	
+}
+
+columnfour h2{
+	text-align:center;
+	font-family:tahoma;
+}
+
+columnfour p{
+	text-align:center;
+	
+}
