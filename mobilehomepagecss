@@ -1,0 +1,227 @@
+<style>
+
+body {
+	background-color:#fff;
+}
+
+header {
+    background-color: #FC01FC;
+	height:130px;
+	
+}
+
+ul {
+	
+    list-style-type: none;
+	margin:0;
+	padding:0;
+	width:100%;
+    overflow: hidden;
+    background-color: #262626;
+	text-align:center;
+}
+
+li {
+	width:100%;
+}
+
+li a {
+    display: block;
+    color: #f5f5f5;
+    text-align: center;
+    padding-top: 14px;
+	padding-bottom:14px;
+    text-decoration: none;
+	font-family:tahoma;
+	font-weight: bold;
+	border-bottom: 3px solid transparent;
+
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+	
+}
+
+li a:hover {
+    background-color: #111;
+	color:#fff;
+	border-bottom: 3px solid #FC01FC;
+}
+
+h1 {
+	font-family:tahoma;
+	font-size:30px;
+	text-decoration: underline;
+	padding:0;
+}
+
+section {
+	margin-left:5%;
+	margin-right:5%;
+	border:10px;
+	border-left: 6px double #e6e6e6;
+	border-right: 6px double #e6e6e6;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:20px;
+	background-color:#fff;
+	font-family:tahoma;
+}
+
+columnone {
+	border:10px;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:20px;
+}
+columnone p{
+	text-align: center;
+	margin:auto;
+	padding-bottom:10px;
+}
+columnone a{
+	color:#FC01FC;
+}
+
+columnone h2{
+	text-align:center;
+	font-family:tahoma;
+}
+
+columnone table{
+	text-align:center;
+	margin:auto;
+	width:100%;
+	border-bottom: 6px double #e6e6e6;
+}
+
+columntwo {
+	border:10px;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:20px;
+}
+
+columntwo p{
+	text-align:center;
+	border-bottom: 6px double #e6e6e6;
+}
+
+columntwo h2{
+	text-align:center;
+	font-family:tahoma;
+}
+
+columnthree{
+	border:10px;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:20px;
+}
+
+columnthree h2{
+	text-align:center;
+	font-family:tahoma;
+}
+columnthree p{
+	text-align:center;
+	border-bottom: 6px double #e6e6e6;
+}
+
+columnfour {
+	border:10px;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:20px;
+}
+
+columnfour h2{
+	text-align:center;
+	font-family:tahoma;
+}
+
+columnfour p{
+	text-align:center;
+	border-bottom: 6px double #e6e6e6;
+}
+
+backgroundimage {
+	left:0px;
+	bottom:-45px;
+	position:fixed;
+	z-index:-99;
+	visibility:hidden;
+}
+
+/* BELOW HERE- SEARCH BAR CODE */
+
+
+	#tfnewsearch{
+		float:left;
+		padding:0;
+		padding-left:18px;
+	}
+	.tftextinput{
+		width:125px;
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #cb01cb; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #cb01cb; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#FC01FC), to(#cb01cb));
+		background: -moz-linear-gradient(top,  #FC01FC,  #cb01cb);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+		
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #FC01FC;
+		background: -webkit-gradient(linear, left top, left bottom, from(#fe80fe), to(#FC01FC));
+		background: -moz-linear-gradient(top,  #fe80fe,  #FC01FC);
+		
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+		
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	
+/*END SEARCH BAR CODE */
+
+footer {		/* Bottom of the page */
+	width:100%;
+	bottom:0px;
+	border-top: 6px double #e6e6e6;
+	background-color:white;
+}
