@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="testcss.css">
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="css.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallcss.css">
 </head>
-
 <body>
 
-<section2></section2>
-
 <backgroundimage>
-<img src="https://photos-4.dropbox.com/t/2/AAD0hAfu4aCj9-Vn8jhhCRttA71EgtvqMNvfMQq1TD5hrQ/12/161667838/jpeg/32x32/1/1449237600/0/2/Flowers.jpg/EMufsXsY5QsgBygH/OCUqk3Y_NPE2IHYCtl_9brk__zgXYuy7a55iNbzxXdA?size_mode=5&size=178x178" style="width:349.6px;height:496px;">
+<img src="flowers.jpg" style="width:15%;relative;">
 </backgroundimage>
 
 <header>
-<img src="aiyf-logo.png" alt="Logo" style="width:240px;height:50px;margin-top:25px">
+<img src="aiyf-logo.png" alt="Logo" style="width:205px;height:72.5px;margin-top:13.75px;margin-left:27.5px">
+
+<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	
 </header>
+
 
 <ul>
   <li><a href="default.asp">Home</a></li>
@@ -22,124 +27,111 @@
   <li><a href="contact.asp">Contact</a></li>
   <li><a href="about.asp">About</a></li>
 </ul>
+
 <section>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium velit a lorem maximus molestie. Maecenas volutpat ornare erat. Pellentesque consequat vestibulum dictum. Etiam id sapien vel arcu scelerisque pellentesque. Aliquam a nunc at eros dapibus pellentesque at id lacus. Aliquam dictum massa in vehicula scelerisque. Etiam eleifend vitae sapien eu sollicitudin. Maecenas blandit nulla vitae felis egestas efficitur. Nunc suscipit libero et risus feugiat, ac commodo orci mattis. Morbi sit amet elit non purus aliquet accumsan in nec dolor. Nam orci dui, ullamcorper vitae nulla nec, mattis tincidunt dui.
 
-<h1>London</h1>
-<p>
-London is the capital city of England. It is the most populous city in the United Kingdom,
-with a metropolitan area of over 13 million inhabitants.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p><p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p><p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p><p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
-<p>
-Standing on the River Thames, London has been a major settlement for two millennia,
-its history going back to its founding by the Romans, who named it Londinium.
-</p>
+Sed dignissim a turpis eget ultricies. Etiam quis dapibus lacus. Etiam in tempor elit, sed porttitor ligula. Suspendisse tincidunt velit sit amet pharetra vestibulum. Nunc varius nisi ac augue faucibus placerat. Cras vehicula eleifend risus, id faucibus nisi faucibus a. Nulla laoreet porta metus, a volutpat diam sagittis eu. Aliquam iaculis iaculis rhoncus. Nunc porttitor suscipit odio in pretium.
 
+In pretium, risus non viverra tempus, orci velit facilisis lacus, et consectetur turpis leo quis nunc. Suspendisse maximus eget massa non commodo. Donec non risus id odio maximus laoreet. Etiam tempor vitae arcu eu finibus. Integer vel molestie dolor, eget commodo nulla. Suspendisse a convallis lectus. Sed rhoncus erat eleifend, maximus sem vel, molestie urna. Etiam sollicitudin iaculis ante, ac sodales est ultrices et. Ut magna tortor, egestas pulvinar varius nec, dignissim quis leo. Ut commodo pellentesque eros et rhoncus. Aliquam erat volutpat. Donec lectus elit, congue eu maximus eget, eleifend at mi. Duis faucibus tellus enim, eget tempus mi efficitur sed.
+
+Cras ut dui odio. Sed scelerisque ex vitae ex fringilla, in convallis magna eleifend. Ut egestas nisi eu massa mattis, quis rhoncus mi gravida. Nam sem lorem, accumsan et interdum sit amet, accumsan ut urna. Cras mollis at mauris elementum posuere. Nulla ligula ipsum, facilisis vitae orci non, semper sodales purus. Aenean imperdiet sagittis nisi, in vulputate augue mollis a. Duis pellentesque orci quis nulla facilisis mollis. Donec vel porta nisl. Mauris euismod sed ex vel ornare. In gravida ornare commodo. Pellentesque feugiat tincidunt tortor, vitae bibendum mi posuere vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas posuere gravida turpis nec gravida.
+
+Quisque in faucibus magna. Ut quis turpis ac lectus semper rhoncus non sit amet purus. Cras ornare quam ac purus blandit vehicula sit amet convallis magna. Aliquam erat odio, varius ac rutrum ac, tristique ac sapien. Praesent vulputate, elit at vestibulum porta, nisl nulla vehicula tortor, nec consectetur tortor ex commodo eros. Aliquam ut justo orci. Ut sed pharetra est, ac dignissim massa. Nulla facilisis diam non molestie lacinia.
+
+Nam non egestas quam. Maecenas egestas justo eu purus laoreet, ut ultricies elit pellentesque. Praesent eget eros sed risus vestibulum dignissim eget ac urna. Quisque ornare interdum lorem, ut feugiat odio sodales vel. Mauris non efficitur ipsum. Duis vehicula quam erat, viverra viverra sem vulputate in. Nunc bibendum leo vitae accumsan vehicula. In hac habitasse platea dictumst. Ut ac sem ac orci tristique eleifend. Phasellus in nulla sagittis, venenatis eros a, tempor lorem. Maecenas porttitor enim quis magna volutpat congue. Curabitur malesuada fringilla ligula eget hendrerit. Etiam non dui suscipit, ornare odio quis, faucibus nisi. In id elit vel erat pellentesque accumsan id sed tellus. Integer euismod metus hendrerit fringilla pretium. Aenean faucibus nulla quis nulla scelerisque posuere.
+
+Phasellus cursus efficitur nunc, at aliquet nulla faucibus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer pulvinar egestas sapien quis eleifend. Praesent bibendum pretium velit laoreet interdum. Nunc convallis turpis et odio bibendum, a malesuada metus tristique. In gravida nisi nec posuere blandit. Donec vulputate enim non sapien tincidunt auctor. Duis id ligula eu magna finibus luctus et ut elit. Quisque et nunc at odio varius cursus at in mauris.
+
+Nulla facilisi. Duis nisl nunc, varius eu eleifend eget, congue quis mauris. Sed augue ante, faucibus ut pulvinar a, venenatis nec mi. Mauris sollicitudin nibh vitae lacus vestibulum fermentum. Vestibulum risus lectus, egestas ac hendrerit vel, sagittis eget ligula. Sed tempus ex non iaculis commodo. Nulla ut gravida felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed odio vel felis porttitor feugiat ut vitae nulla. Sed id tortor quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Mauris sit amet massa quis enim pulvinar porttitor at eu odio. Fusce posuere tincidunt ex, non porttitor quam lacinia in. Cras dictum nibh eget euismod ornare. Etiam mi metus, mollis id lacus id, ultricies placerat mauris. Cras pulvinar, nisl a aliquet rhoncus, leo lectus vestibulum tortor, ut dapibus orci elit at libero. Fusce euismod odio scelerisque porta elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris feugiat venenatis gravida. Aliquam hendrerit sodales lorem, in suscipit massa sodales eu.
+
+Quisque in mauris libero. Proin sed vulputate nibh, ut euismod ante. Maecenas ut euismod tellus. Nullam magna lacus, ullamcorper sit amet nisi id, tincidunt mollis orci. Nunc laoreet pulvinar tortor id maximus. Nam id risus et felis ullamcorper tincidunt vitae at dui. Proin id efficitur justo, et pretium tellus. Phasellus quis nisl facilisis, auctor urna non, lacinia augue.</p>
 </section>
 
 <footer>
-Copyright © W3Schools.com
+<columnone>
+<h2>Search for Tickets</h2>
+    <p>You can buy tickets online for all<br>shows at  <a href="http://www.boxofficeaberdeen.com/" target="_blank">Aberdeen Box Office</a></p>
+    <form action="/search" method="post" name="search">
+    <table width="200">
+    
+      <tr>
+        <td><select name="search_areas">
+          <option value="0" >All Areas</option>
+                              <option value="2">Aberdeen</option>
+                    <option value="10">Aberlour</option>
+                    <option value="18">Alford</option>
+                    <option value="13">Arbroath</option>
+                    <option value="14">Ballater</option>
+                    <option value="3">Banchory</option>
+                    <option value="31">Banff</option>
+                    <option value="40">Braemar</option>
+                    <option value="32">Brechin</option>
+                    <option value="28">Clatt</option>
+                    <option value="38">Elgin</option>
+                    <option value="39">Fochabers</option>
+                    <option value="22">Fraserburgh</option>
+                    <option value="24">Garthdee</option>
+                    <option value="27">Huntly</option>
+                    <option value="12">Inverurie</option>
+                    <option value="35">Kemnay</option>
+                    <option value="30">Laurencekirk</option>
+                    <option value="29">Peterculter</option>
+                    <option value="42">Portsoy</option>
+                    <option value="11">Stonehaven</option>
+                    <option value="34">Tarves</option>
+                    <option value="25">Westhill</option>
+          		        </select></td>
+      </tr>
+      <tr>
+        <td><select name="search_dates">
+          <option value="0" >All Dates</option>
+                              <option value="2015-07-23">Thu 23rd, Jul 2015</option>
+                    <option value="2015-07-24">Fri 24th, Jul 2015</option>
+                    <option value="2015-07-25">Sat 25th, Jul 2015</option>
+                    <option value="2015-07-26">Sun 26th, Jul 2015</option>
+                    <option value="2015-07-27">Mon 27th, Jul 2015</option>
+                    <option value="2015-07-28">Tue 28th, Jul 2015</option>
+                    <option value="2015-07-29">Wed 29th, Jul 2015</option>
+                    <option value="2015-07-30">Thu 30th, Jul 2015</option>
+                    <option value="2015-07-31">Fri 31st, Jul 2015</option>
+                    <option value="2015-08-01">Sat 1st, Aug 2015</option>
+          		        </select>
+        </td>
+      </tr>
+      <tr>
+        <td><input name="search_title" type="text" class="title" value="Show Title"  onclick="this.value=''" /></td>
+      </tr>
+      <tr>
+        <td><input name="" value="Search" type="submit" /></td>
+      </tr>
+    </table>
+  </form>
+ 
+</columnone>
+
+<columntwo>
+<h2>Sponsors</h2>
+<p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Shell_logo.svg/1105px-Shell_logo.svg.png" style="width:50px;height:50px;"></p>
+<p><img src="https://akbrodie.files.wordpress.com/2014/09/bp_logo.png?w=226&h=300" style="width:50px;height:relative;"></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Nexen_Logo.svg/1280px-Nexen_Logo.svg.png" style="height:50px;width:relative;"></p>
+<p><img src="http://www.aberdeencity.gov.uk/web/Templates/acc-home-2011_files/acc-logo.gif" style="height:50px;width:relative;"></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/University_of_Aberdeen_Logo_Full.svg/1280px-University_of_Aberdeen_Logo_Full.svg.png" style="height:50px;width:relative;"></p>
+</columntwo>
+
+<columnthree>
+<h2>contact us</h2>
+ <p><a href="https://www.facebook.com/Aberdeen-International-Youth-Festival-6543449229/"><img src="https://www.facebookbrand.com/img/fb-art.jpg" style="height:50px;width:relative;"></a></p>
+ <p><a href="https://twitter.com/aiyf"><img src="https://g.twimg.com/Twitter_logo_blue.png" style="height:50px;width:relative;"></a></p>
+</columnthree>
+
+<columnfour>
+<h2>blahblah</h2>
+</columnfour>
+
 </footer>
 
 </body>
-
